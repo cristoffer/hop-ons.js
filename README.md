@@ -25,6 +25,8 @@ Horizontal menu description:
 
 
 Vertical menu description:
+List of devices
+The Media Query limits are displayed as devices in a list next to the ordinary device list when the MQ (horizontal 4) button is clicked.
 
 1. Fullpage: fits device to browser window size.
 2. iPhone: iPhone 3, 4 viewport size.
