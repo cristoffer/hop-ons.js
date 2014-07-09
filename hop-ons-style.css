@@ -146,6 +146,7 @@ h2{
     display: inline;
     cursor: pointer;
     font-weight: 400;
+    font-size: 90%;
 }
 
 #set_custom_size_img{
