@@ -1,6 +1,6 @@
 /*jslint browser:true */
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4 */
-/*global define */
+/* todos: line 1139, line 1119, line 990, line 992, line 781, line 751 */
 
 window.hop_ons_media_queries = (function () {
     "use strict";
@@ -748,6 +748,7 @@ window.hop_ons_main = (function () {
     
     /* done and tested */
     Hop_ons_main.prototype.setToThisDeviceSize = function (e) {
+        // TODO: test if this really works
         var id = e.target.id;
         if (e.target.tagName !== 'DIV' || e.target.classList.contains('custom_number')) {
             id = e.target.parentElement.id;
@@ -777,6 +778,7 @@ window.hop_ons_main = (function () {
     
     /* done and tested */
     function isNewSize(x, y) {
+        // TODO: test if this really works
         var key;
         x = parseInt(x);
         y = parseInt(y);
@@ -985,6 +987,9 @@ window.hop_ons_main = (function () {
         else
         {
             // arrow increase/decrease value
+            // TODO: bind right / left arrows for changing width
+            // keep up / down for changing height
+            // TODO: remove transitions while this is bound
             if (e.keyCode === 38) {
                 // up arrow, increase
                 var id = e.target.id;
@@ -1111,6 +1116,7 @@ window.hop_ons_main = (function () {
     };
     
     window.onresize = function () {
+        //TODO: test if this really works
         var w = body.offsetWidth;
         var h = body.offsetHeight;
         assoc_devices_dim.fullscreen[0][1] = w;
@@ -1130,6 +1136,7 @@ window.hop_ons_main = (function () {
         }
     };
     
+    // TODO: bind this when help is active and unbind after
     document.addEventListener('mousemove', moveCursor);
     var hop = {
         init: function () {
