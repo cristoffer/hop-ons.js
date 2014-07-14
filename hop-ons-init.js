@@ -15,7 +15,7 @@ function hopons_init(){
     var base = 'http://hoptest.cristoffer.cc/script/';//'script/';
     //base = '/script/';
     var thisname = 'hop_ons_init';
-    var hopons_script_url = 'https://rawgit.com/cristoffer/hop-ons.js/fe3f0c6ef63c95167ee78e19c8020f2ea638b98e/hop_ons_minified.js';// base+'hop_ons_minified.js'//base+'/hop-ons-main.js';//'new_script/hop_ons_minified.js'// //base + 'hop-ons-main.js';//
+    var hopons_script_url = 'https://rawgit.com/cristoffer/hop-ons.js/8154c7ba22590ee69f4bccc39e3e36607a21d8b5/hop_ons_minified.js';// base+'hop_ons_minified.js'//base+'/hop-ons-main.js';//'new_script/hop_ons_minified.js'// //base + 'hop-ons-main.js';//
     //hopons_script_url = 'new_script/hop-ons-main.js';
     //hopons_script_url = base + 'hop-ons-main.js';
     var hopons_css_url = 'https://rawgit.com/cristoffer/hop-ons.js/8af9fcca66a309b2d0c07807ede41c28ac2b25a8/hop-ons-style.css';// base+'hop-ons-style.css';
