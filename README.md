@@ -5,7 +5,7 @@ Developed in Javascript with no external dependencies.
 
 Bookmarks-link:
 
-javascript:((function(d){var%20h=d.createElement('script');h.type='text/javascript';h.name='hop-ons-init.js';h.src='https://rawgit.com/cristoffer/hop-ons.js/b48e30f267586bec5cdc72249d2e18363d32b222/hop-ons-init.js';d.getElementsByTagName('head')[0].appendChild(h);})(document));
+javascript:((function(d){var%20h=d.createElement('script');h.type='text/javascript';h.name='hop-ons-init.js';h.src='https://rawgit.com/cristoffer/hop-ons.js/decf984f6f854652c043a060bba9a5443671a10a/hop-ons-init.js';d.getElementsByTagName('head')[0].appendChild(h);})(document));
 
 
 
