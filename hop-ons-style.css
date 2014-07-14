@@ -101,8 +101,20 @@ img{
     z-index: 2;
     /*background: rgba(0,0,0,0.9);*/
     color: white;
+    /*
     height: 80px;
     width:  200px;
+    */
+}
+
+.hop_ons_container_maximized {
+    height: 80px;
+    width: 200px;
+}
+
+.hop_ons_container_minimized {
+    height: 26px;
+    width: 135px;
 }
 
 #hop_ons_display{
@@ -146,7 +158,6 @@ h2{
     display: inline;
     cursor: pointer;
     font-weight: 400;
-    font-size: 90%;
 }
 
 #set_custom_size_img{
@@ -156,10 +167,23 @@ h2{
     cursor: pointer;
     float: left;
     display: inline-block;
+    
+}
+
+.CustomInactive{
+    border-top: 1px solid rgb(30,30,30);
+    border-left: 1px solid rgb(30,30,30);
+    border-right: 1px solid rgb(100,100,100);
+    border-bottom: 1px solid rgb(100,100,100);
+    background: rgba(255,255,255,0.1);
+}
+
+.CustomActive{
     border-top: 1px solid rgb(100,100,100);
     border-left: 1px solid rgb(100,100,100);
     border-right: 1px solid rgb(30,30,30);
     border-bottom: 1px solid rgb(30,30,30);
+    background: none;
 }
 
 #save_size_icon{
@@ -403,13 +427,49 @@ input[type=number]::-ms-outer-spin-button {
 
 .functionalcss>p{
     font-weight: 100;
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 14px;
 }
 
 
 .active{
     background: rgba(30,30,30,0.9);
+}
+
+#remove_custom{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#remove_custom>img{
+    height: 100%;
+    width: 100%;
+}
+
+#toggle_hide_tool{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#questionCursor{
+    cursor: none;
+ 	width: 20px;
+ 	height: 20px;
+ 	background: url("/script/questionmark.png") no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
 }
 
 .transitionable{
