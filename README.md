@@ -3,6 +3,11 @@ hop-ons.js
 Help tool for developers testing responsivity in web projects.
 Developed in Javascript with no external dependencies.
 
+Bookmarks-link:
+
+javascript:((function(d){var%20h=d.createElement('script');h.type='text/javascript';h.name='hop_ons_init';h.src='https://rawgit.com/cristoffer/hop-ons.js/4c92944cf29709d9ef765147b7b33f6c1342168f/hop-ons-init.js';d.getElementsByTagName('head')[0].appendChild(h);})(document));
+
+
 
 Functionality
 
