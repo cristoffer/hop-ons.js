@@ -1,15 +1,16 @@
-hop-ons.js
-==========
+# hop-ons.js
+
 Help tool for developers testing responsivity in web projects.
 Developed in Javascript with no external dependencies.
 
-Bookmarks-link:
-
+### Bookmarks-link:
+: 
+```javascript
 javascript:((function(d){var%20h=d.createElement('script');h.type='text/javascript';h.name='hop-ons-init.js';h.src='https://rawgit.com/cristoffer/hop-ons.js/decf984f6f854652c043a060bba9a5443671a10a/hop-ons-init.js';d.getElementsByTagName('head')[0].appendChild(h);})(document));
+```
 
 
-
-Functionality
+### Functionality
 
 - Display website in commmon devices size.
 - Flip orientation of device.
@@ -20,7 +21,7 @@ Functionality
 - Toggle size of window by 1px when MQ-device is active to show exactly what difference it does.
 
 
-Horizontal menu description:
+### Horizontal menu description:
 
 1. Reload: reloads page in iframe and resets all the Media Query limits it has found. Does not reload encapsulating page.
 2. Flip orientation: flips orientation of current device
@@ -29,8 +30,8 @@ Horizontal menu description:
 (5.) Toggle Size: (only visible when a MQ device is active), changes the size by 1px to see MQ's at work
 
 
-Vertical menu description:
-List of devices
+### Vertical menu description:
+#### List of devices
 The Media Query limits are displayed as devices in a list next to the ordinary device list when the MQ (horizontal 4) button is clicked.
 
 1. Fullpage: fits device to browser window size.
@@ -41,7 +42,7 @@ The Media Query limits are displayed as devices in a list next to the ordinary d
 6. HD-display
 
 
-Usage:
+### Usage:
 
 Put a script element with src to the hop-ons-init.js file in header of website.
 Requires the wesite to run in some kind of server that allows http-requests (python SimpleHTTPServer works fine), because it uses AJAX to fetch the CSS for parsing and finding Media Query limits.
