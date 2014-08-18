@@ -128,13 +128,13 @@ img{
     border-bottom: 1px solid rgb(30,30,30);
 }
 
-h1{
+#hop_ons_container h1{
     font-weight: 100%;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-h2{
+#hop_ons_container h2{
     font-weight: 300;
     font-size: 65%;
     line-height: 1;
